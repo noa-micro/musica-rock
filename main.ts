@@ -9,7 +9,7 @@ input.onButtonPressed(Button.A, function () {
     } else if (Rock == 3) {
         basic.showIcon(IconNames.Yes)
         music.playMelody("A D C5 F C G B E ", 105)
-        music.playMelody("A D C5 F C G B E ", 1)
+        music.playMelody("A D C5 F C G B E ", 500)
     }
     basic.pause(2000)
     basic.showIcon(IconNames.Diamond)
